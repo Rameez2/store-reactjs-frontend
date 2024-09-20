@@ -1,0 +1,24 @@
+[
+    {
+      "id": "1",
+      "name": "Electronics",
+      "description": "Devices and gadgets including audio equipment, cameras, and more.",
+      "image": "electronics.jpg",
+      "createdAt": "2024-08-13T08:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Wearables",
+      "description": "Fitness trackers, smartwatches, and other wearable technology.",
+      "image": "wearables.jpg",
+      "createdAt": "2024-08-12T09:30:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Home Appliances",
+      "description": "Appliances for home use including kitchen gadgets and air purifiers.",
+      "image": "home_appliances.jpg",
+      "createdAt": "2024-08-11T10:45:00Z"
+    }
+  ]
+  

@@ -1,0 +1,27 @@
+[
+    {
+      "_id": "1",
+      "userId": "1",
+      "productIds": ["1", "2", "3"],
+      "quantities": [1, 2, 1],
+      "totalAmount": 99.99 , 
+      "status": "Pending",
+      "createdAt": "2024-08-13T10:00:00Z",
+      "updatedAt": "2024-08-13T10:00:00Z",
+      "shippingAddress": "123 Elm St, Apt 4B",
+      "paymentMethod": "Credit Card"
+    },
+    {
+      "_id": "2",
+      "userId": "2",
+      "productIds": ["2", "3", "1"],
+      "quantities": [1, 1, 2],
+      "totalAmount": 149.99,
+      "status": "Shipped",
+      "createdAt": "2024-08-13T11:00:00Z",
+      "updatedAt": "2024-08-13T11:00:00Z",
+      "shippingAddress": "456 Oak St, Suite 3A",
+      "paymentMethod": "PayPal"
+    }
+  ]
+  

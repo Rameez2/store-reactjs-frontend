@@ -1,0 +1,33 @@
+.featuredProductList{
+    display: flex;
+    gap: 15px;
+    height: 410px;
+    padding: 7px;
+    flex-wrap: wrap;
+    border: 2px solid;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+    margin: 10px 5px;
+}
+
+.FeaturedProductsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.FeaturedProductsTop{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 15px 0;
+}
+.heading {
+    font-family: sans-serif;
+    color: var(--headings-color) !important;
+    text-decoration: underline;
+    text-decoration-color:#f9706a;
+}

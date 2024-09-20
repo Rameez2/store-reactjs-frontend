@@ -1,0 +1,43 @@
+[
+    {
+      "email": "john.doe@example.com",
+      "fullName": "John Doe",
+      "address": "123 Elm St, Apt 4B",
+      "country": "USA",
+      "password": "hashed_password_1",
+      "createdAt": "2024-08-13T08:00:00Z"
+    },
+    {
+      "email": "jane.smith@example.com",
+      "fullName": "Jane Smith",
+      "address": "456 Oak St, Suite 3A",
+      "country": "USA",
+      "password": "hashed_password_2",
+      "createdAt": "2024-08-12T09:30:00Z"
+    },
+    {
+      "email": "alice.jones@example.com",
+      "fullName": "Alice Jones",
+      "address": "789 Pine St, Apt 12C",
+      "country": "USA",
+      "password": "hashed_password_3",
+      "createdAt": "2024-08-11T10:45:00Z"
+    },
+    {
+      "email": "bob.brown@example.com",
+      "fullName": "Bob Brown",
+      "address": "321 Maple St, House 5",
+      "country": "Canada",
+      "password": "hashed_password_4",
+      "createdAt": "2024-08-10T11:20:00Z"
+    },
+    {
+      "email": "carol.white@example.com",
+      "fullName": "Carol White",
+      "address": "654 Birch St, Apt 7D",
+      "country": "UK",
+      "password": "hashed_password_5",
+      "createdAt": "2024-08-09T12:00:00Z"
+    }
+  ]
+  

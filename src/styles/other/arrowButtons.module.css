@@ -1,0 +1,33 @@
+.arrows {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+}
+.arrows > i {
+    background-color: #bdbdbd;
+    color: black;
+    cursor: pointer;
+    height: 7px;
+    padding: 5px 7px 18px 7px;
+    transition: 0.5s;
+}
+
+.arrows > :nth-of-type(1) {
+    rotate: 30deg;
+}
+
+.arrows > :nth-of-type(2) {
+    rotate: -30deg;
+}
+.arrows > :nth-of-type(1):hover {
+    rotate: 0deg;
+}
+.arrows > :nth-of-type(2):hover {
+    rotate: 0deg;
+}
+.arrows > i:hover {
+    background-color: #f9706a;
+    color: white;
+}

@@ -1,0 +1,29 @@
+.storeFeatures {
+    display: flex;
+    width: auto;
+    padding: 20px;
+    border-top: 1px solid #cbcbcb;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #cbcbcb;
+    flex-wrap: wrap;
+    margin: 15px 20px 5px 20px;
+}
+.featureContainer{
+    display: flex;
+    width: fit-content;
+    gap: 10px;
+    padding: 10px 10px 5px 10px;
+    align-items: center;
+    margin: 10px;
+}
+.featureText > h2{
+    color: #f9706a;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0;
+}
+.featureText > p{
+    color: grey;
+    font-family: monospace;
+    font-size: 15px;
+}

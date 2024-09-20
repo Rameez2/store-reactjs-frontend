@@ -1,0 +1,57 @@
+//Set up the React project using Create React App.
+//Create a JSON file for the fake backend data.
+Build components for the shop interface (e.g., ProductList, ProductItem, Cart).
+Set up routing with React Router if needed.
+Fetch data from the JSON file and display it in components.
+Implement state management for handling cart functionality.
+Add styling to the components for a polished look.
+Test the functionality and ensure everything works as expected.
+Deploy the application to a hosting service.
+
+
+***** ROUTES *********
+/ - Home Page: Overview or landing page.
+
+Hero Section: A visually appealing banner or carousel highlighting featured products or promotions.
+Category Highlights: Display a few main product categories with links to their respective pages.
+Featured Products: Showcase a selection of popular or new arrivals.
+Promotions/Discounts: Highlight any ongoing sales or special offers.
+Call to Action: Encourage users to explore the shop, sign up, or check out featured items.
+_____________________________________
+/products - Product Listing Page: Displays all products.
+_____________________________________
+/products/:id - Product Detail Page: Shows details for a specific product.
+_____________________________________
+/cart - Cart Page: Displays the items in the user's cart.
+_____________________________________
+/checkout - Checkout Page: Handles the checkout process.
+_____________________________________
+/orders - Order History Page: Shows the user's past orders.
+_____________________________________
+/login - Login Page: For user authentication.
+_____________________________________
+
+
+
+******** DATABSE *********
+users.json
+products.json
+categories.json
+carts.json
+reviews.json
+
+
+
+
+
+
+///////************ APPROACHES *********////////
+CART APPROACH :::::
+Initial Cart Fetch: On app load, fetch the cart from the backend and store it in local storage.
+Local Storage Operations: For adding, updating, or deleting items, first check and modify the cart in local storage.
+Batch Syncing: Periodically sync the local storage cart with the backend (e.g., when the user checks out or at set intervals).
+[by doing this we save alot of api calls]
+
+
+
+

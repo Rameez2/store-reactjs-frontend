@@ -1,0 +1,80 @@
+/*
+
+https://www.realtimecolors.com/?colors=0a1624-e4ecf6-203c69-d59976-8cac35&fonts=Inter-Inter
+
+<---- LIGHT ---->
+
+--text: #0a1624;
+--background: #e4ecf6;
+--primary: #203c69;
+--secondary: #d59976;
+--accent: #8cac35;\
+
+<---- DARK ---->
+
+--text: #dbe7f5;
+--background: #09111b;
+--primary: #96b2df;
+--secondary: #894d2a;
+--accent: #abca53;
+
+*/
+
+:root {
+    --background-color: #e4ecf6;
+    --text-color: #0a1624;
+    --nav-background-color: #e4ecf6;
+    --nav-text-color: #0a1624;
+    --action-button-background-colorr:white;
+    --action-button-color:white;
+    --headings-color:rgb(0, 0, 0);
+    /* PRODUCT */
+    --product-bg-color:#e2e3e9;
+    --product-action-icon-bg-color:#8cac35;
+    --product-action-icon-color:#0a1624;
+}
+
+.light-theme {
+    --background-color: #e4ecf6;
+    --text-color: #0a1624;
+    --nav-background-color: #e4ecf6;    
+    --nav-text-color: #0a1624;
+    --action-button-background-color:rgb(32, 60, 105);
+    --action-button-color:white;
+    --headings-color:rgb(0, 0, 0);
+
+}
+
+.dark-theme {
+    --background-color: #0a0d10;
+    --text-color: #dde8f5;
+    --nav-background-color: #0a0d10;
+    --nav-text-color: rgb(255, 255, 255);
+    --action-button-background-color:rgb(150, 178, 223);
+    --action-button-color:#09111b;
+    --headings-color:rgb(255, 255, 255);
+}
+
+html, body {
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.btn {
+    background-color: var(--action-button-background-color);
+    color: var(--action-button-color);
+    border: transparent;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 45px;
+    width: fit-content;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: #333;
+}

@@ -1,0 +1,7 @@
+.productsList {
+    display: flex;
+    gap: 15px;
+    height: auto;
+    padding: 20px;
+    flex-wrap: wrap;
+}

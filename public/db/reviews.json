@@ -1,0 +1,21 @@
+[
+    {
+      "id": "1",
+      "productId": "1",
+      "userId": "1",
+      "rating": 4,
+      "comment": "Great headphones with excellent sound quality, but a bit bulky.",
+      "createdAt": "2024-08-13T08:00:00Z",
+      "updatedAt": "2024-08-13T08:00:00Z"
+    },
+    {
+      "id": "2",
+      "productId": "2",
+      "userId": "2",
+      "rating": 5,
+      "comment": "Love the smartwatch! The fitness tracking is accurate and the GPS is very useful.",
+      "createdAt": "2024-08-13T09:00:00Z",
+      "updatedAt": "2024-08-13T09:00:00Z"
+    }
+  ]
+  
