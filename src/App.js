@@ -13,6 +13,7 @@ import { ThemeContext } from "./providers/themeContext";
 import Login from "./pages/Login";
 import ProtectedRoute from "./middlewares/protectedRoute";
 import ProfilePage from "./pages/ProfilePage";
+import Register from "./pages/Register";
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         
         <Route path="/" element={<Home/>} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/register" element={<Register/>} />
         <Route path="/products" element={<ProductsPage/>} />
         <Route path="/cart" element={<CartPage/>} />
         <Route path="/checkout" element={<CheckoutPage/>} />
